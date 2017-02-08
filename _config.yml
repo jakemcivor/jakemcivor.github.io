@@ -7,10 +7,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jakemcivor
 github_username:  jakemcivor
+facebook_username: jake.mcivor.1
+twitter_username: jakemcivor
 
 # Build settings
 markdown: kramdown
 
+# Gems
+gems: [jekyll-paginate]
 
 paginate: 4
 paginate_path: "blog/page:num"
