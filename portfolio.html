@@ -1,6 +1,6 @@
 ---
 layout: default
-section_id: home
+section_id: portfolio
 works:
   - image: images/@stock/msn-work-1.jpg
     class: graphic-design
@@ -62,9 +62,70 @@ works:
     class: graphic-design
     title: Flower Book
     desc: "Design &amp; Development"
+  - image: images/@stock/msn-work-1.jpg
+    class: development print
+    title: Beautiful Girl
+    desc: "Design &amp; Development"
+  - image: images/@stock/msn-work-2.jpg
+    class: brand
+    title: Look at me
+    desc: "Design &amp; Development"
+  - image: images/@stock/msn-work-3.jpg
+    class: web-design
+    title: Am I cute
+    desc: "Design &amp; Development"
+  - image: images/@stock/msn-work-4.jpg
+    class: print
+    title: Umbrella
+    desc: "Design &amp; Development"
+  - image: images/@stock/msn-work-5.jpg
+    class: graphic-design
+    title: Canned Bros
+    desc: "Design &amp; Development"
+  - image: images/@stock/msn-work-6.jpg
+    class: development wide
+    title: Hale
+    desc: "Design &amp; Development"
+  - image: images/@stock/msn-work-7.jpg
+    class: print
+    title: A beautiful day
+    desc: "Design &amp; Development"
+
 ---
 
+<div class='full' style='background: #333'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='color: #fff;'>Our works</h2>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+<div class='two spacing'></div>
+<div class='spacing'></div>
 <div class='mod modMasonryGallery'>
+  <div class='gallery-nav'>
+    <ul>
+      <li class='current'>
+        <a data-cat='all' href='#'>All</a>
+      </li>
+      <li>
+        <a data-cat='graphic-design' href='#'>Graphic Design</a>
+      </li>
+      <li>
+        <a data-cat='web-design' href='#'>Web Design</a>
+      </li>
+      <li>
+        <a data-cat='brand' href='#'>Brand</a>
+      </li>
+      <li>
+        <a data-cat='development' href='#'>Development</a>
+      </li>
+      <li>
+        <a data-cat='print' href='#'>Print</a>
+      </li>
+    </ul>
+  </div>
   <ul class='gallery'>
     {% for work in page.works %}
       <li class='{{work.class}}'>
