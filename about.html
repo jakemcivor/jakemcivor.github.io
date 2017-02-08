@@ -2,107 +2,25 @@
 layout: default
 section_id: about
 skills:
-  - title: Web Design
+  - title: Mechanical Design
     percent: 84
-  - title: Web Development
-    percent: 95
-  - title: Site Management
-    percent: 70
-  - title: Branding
-    percent: 61
 
 members:
-  - name: Mark Wayne
+  - name: Jake McIvor
     position: founder
     desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+      Multi-talented mechanical and biomedical engineer.
     avatar: images/@stock/member-1.jpg
     socials:
       - icon_class: fa fa-twitter
-        url: http://twitter.com
+        url: http://twitter.com/{{site.twitter_username}}
       - icon_class: fa fa-facebook
         url: http://facebook.com
-  - name: Kate Holms
-    position: Creative Director
-    desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-    avatar: images/@stock/member-2.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-      - icon_class: fa fa-dribbble
-        url: http://dribbble.com
-  - name: Tom Hason
-    position: Designer
-    desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-    avatar: images/@stock/member-3.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-      - icon_class: fa fa-tumblr
-        url: http://tumblr.com
-  - name: Lily Whrem
-    position: Developer
-    desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-    avatar: images/@stock/member-4.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
+ 
 clients:
   - images/@stock/client-grey-1.png
   - images/@stock/client-grey-2.png
-  - images/@stock/client-grey-3.png
-  - images/@stock/client-grey-4.png
-  - images/@stock/client-grey-5.png
-  - images/@stock/client-grey-6.png
-
 ---
-
-<div class='full' style='background: #333'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2 style='color: #fff;'>About the team</h2>
-    </div>
-  </div>
-  <div class='two spacing'></div>
-</div>
-<div class='full'>
-  <div class='row'>
-    <div class='medium-6 columns'>
-      <h3>Our history</h3>
-      <div class='spacing'></div>
-      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <div class='two spacing'></div>
-    </div>
-    <div class='medium-6 columns'>
-      <h3>Our skills</h3>
-      <div class='spacing'></div>
-      <div class='mod modBarGraph'>
-        <ul class='bars'>
-          {% for skill in page.skills %}
-            <li>
-              <h4 style=''>
-                {{skill.title}}
-                <strong>{{skill.percent}}%</strong>
-              </h4>
-              <p class='highlighted' data-percent='{{skill.percent}}'></p>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div class='two spacing'></div>
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -129,7 +47,6 @@ clients:
             </div>
           </div>
           <h3>{{member.name}}</h3>
-          <p class='position'>{{member.position}}</p>
           <p>{{member.desc}}</p>
           <div class='two spacing'></div>
         </div>
@@ -138,19 +55,40 @@ clients:
   </div>
   <div class='two spacing'></div>
 </div>
-<div class='full'>
+<div class='full' style='background: #333'>
   <div class='row'>
     <div class='large-12 columns'>
-      <h3>Our clients</h3>
+      <h2 style='color: #fff;'>About Me</h2>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>My history</h3>
       <div class='spacing'></div>
-      <div class='mod modClients' data-slides_to_show='5'>
-        <div class='clients'>
-          {% for client in page.clients %}
-            <div><img alt="" src="{{client}}" /></div>
+      <p>I was lucky enough to grow up in Kimberley, B.C., in the East Kootenay region of British Columbia. </p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <div class='two spacing'></div>
+    </div>
+    <div class='medium-6 columns'>
+      <h3>My skills</h3>
+      <div class='spacing'></div>
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for skill in page.skills %}
+            <li>
+              <h4 style=''>
+                {{skill.title}}
+                <strong>{{skill.percent}}%</strong>
+              </h4>
+              <p class='highlighted' data-percent='{{skill.percent}}'></p>
+            </li>
           {% endfor %}
-        </div>
+        </ul>
       </div>
     </div>
   </div>
-  <div class='four spacing'></div>
 </div>
+<div class='two spacing'></div>
