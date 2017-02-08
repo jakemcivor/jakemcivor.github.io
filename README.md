@@ -1,2 +1,2 @@
 # jakemcivor.github.io
-Personal webpage
+A personal webpage for Jake McIvor
