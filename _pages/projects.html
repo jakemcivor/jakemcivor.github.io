@@ -32,11 +32,11 @@ works:
 			<ul class='gallery'>
 			{% for project in site.projects %}
 				<li class='{{ project.class }}'>
-					<img alt="" src="{{  project.relativepath  }}/{{ project.image }}" />
+					<img alt="" src="{{  site.url }}/{{ project.image_path }}" />
 					<div class = 'overlay'>
 						<div class='thumb-info'>
-						<h3>{{ project.title}}</h3>
-						<p>{{ project.desc }}</p>
+						<h3>{{ project.desc}}</h3>
+						<p>{{ project.content }}</p>
 						</div>
 					</div>
 				</li>
@@ -44,4 +44,5 @@ works:
 			</ul>
 		</div>
 	</div>
+	
 </div>

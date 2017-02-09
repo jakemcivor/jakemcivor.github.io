@@ -13,11 +13,11 @@
   path: /portfolio/
   section_id: portfolio
 - name: Projects
-  path: /projects/
-  section_id: projects
+  path: /projects/ 
   children:  
-  - name: Snow Art
-  path: /projects/snowart
+  - name: SnowArt
+    path: /projects/snowart
+  section_id: projects
 - name: Contact
   path: /contact/
   section_id: contact

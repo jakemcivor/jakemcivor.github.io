@@ -30,4 +30,5 @@ paginate_path: "blog/page:num"
 
 # Projects
 collections:
-- projects
+  projects:
+    output: true	
