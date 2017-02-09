@@ -4,7 +4,6 @@ permalink: /projects/
 section_id: projects
 
 ---
-
 <div class='full' style='background: #333'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -14,36 +13,53 @@ section_id: projects
   <div class='two spacing'></div>
 </div>
 <div class='two spacing'></div>
+<div class='spacing'></div>
+<div class='mod modMasonryGallery'>
+  <div class='gallery-nav'>
+    <ul>
+      <li class='current'>
+        <a data-cat='all' href='#'>All</a>
+      </li>
+      <li>
+        <a data-cat='mechanical' href='#'>Mechanical</a>
+      </li>
+	  <li>
+        <a data-cat='electronics' href='#'>Electronics</a>
+      </li>
+      <li>
+        <a data-cat='biomedical' href='#'>Biomedical</a>
+      </li>
+	  <li>
+        <a data-cat='software' href='#'>Software</a>
+      </li>
+	  <li>
+        <a data-cat='ideation' href='#'>Ideation</a>
+      </li>
+	  <li>
+        <a data-cat='design' href='#'>Design</a>
+      </li>
+	  <li>
+        <a data-cat='ip' href='#'>Intellectual Property</a>
+      </li>
+	  <li>
+        <a data-cat='art' href='#'>Art</a>
+      </li>
 
-<div class='full'>
-	<div class='row'>
-		<div class='large-12 columns'>
-			{% for project in site.projects %}
-				<div class="project">
-					<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-				</div>
-			{% endfor %}
-		</div>
-	</div>
-</div>
-
-<div class='full'>
-	<div class='row'>
-		<div class='large-12 columns'>
-			<ul class='gallery'>
-			  {% for project in site.projects %}
-				<li class='{{ project.class }}'>
-					<img alt="" src="{{  site.url }}/{{ project.image_path }}" />
-					<div class = 'overlay'>
-						<div class='thumb-info'>
-						<h3>{{ project.title }}</h3>
-						<p>{{ project.content }}</p>
-						</div>
-					</div>
-				</li>
-			  {% endfor %}
-			</ul>
-		</div>
-	</div>
-	
+    </ul>
+  </div>
+  <ul class='gallery'>
+    {% for project in site.projects %}
+      <li class='{{project.class}}'>
+        <a href="{{ project.url }}/portfolio-item/">
+          <img alt="project.title" src="{{ site.url }}/{{ project.image_path }}/{{ project.main_image }}" />
+          <div class='overlay'>
+            <div class='thumb-info'>
+              <h3>{{project.title}}</h3>
+              <p>{{project.desc}}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>

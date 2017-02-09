@@ -9,14 +9,8 @@
   - name: Resume
     path: /resume/
   section_id: about
-- name: Portfolio
-  path: /portfolio/
-  section_id: portfolio
 - name: Projects
   path: /projects/ 
-  children:  
-  - name: SnowArt
-    path: /projects/snowart
   section_id: projects
 - name: Contact
   path: /contact/

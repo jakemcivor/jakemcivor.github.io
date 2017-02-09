@@ -2,7 +2,7 @@
 layout: project
 title: Hatching Health
 image_path: projects/hatching_health
-class: mechanical-design electronics
+class: mechanical electronics biomedical design ideation
 date: March 2015
 client: na
 projecturl: www.hatchinghealth.ca
