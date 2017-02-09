@@ -13,6 +13,8 @@ youtube_username: jakemcivor
 linkedin_username: jakemcivor
 instagram_username: jakemcivor
 
+include: ["_pages"]
+
 # Copyright
 copyrightyear: "2017"
 
@@ -20,9 +22,7 @@ copyrightyear: "2017"
 markdown: kramdown
 
 # Gems
-gems:
- - jekyll-paginate # enable pagination 
- - jekyll-sitemap
+gems: [jekyll-paginate, jekyll-sitemap]
 
 paginate: 4
 paginate_path: "blog/page:num"

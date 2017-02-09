@@ -1,0 +1,46 @@
+---
+layout: default
+section_id: portfolio
+works:
+  - image: images/gear_demo.png
+    class: mechanical-design
+    title: Overhead Projector Gear Demo
+    desc: "Design &amp; Development"
+  - image: images/hatching_health/stroll_sight.jpg
+    class: mechanical-design electronics
+    title: Hatching Health - Stroll Sight
+    desc: "Design &amp; Development"
+
+---
+
+<div class='full' style='background: #333'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='color: #fff;'>My Projects</h2>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+<div class='two spacing'></div>
+<div class='spacing'></div>
+
+
+<div class='full'>
+	<div class = 'row'>
+		<div class = 'large-12 columns'>
+			<ul class='gallery'>
+			{% for project in site.projects %}
+				<li class='{{ project.class }}'>
+					<img alt="" src="{{  project.relativepath  }}/{{ project.image }}" />
+					<div class = 'overlay'>
+						<div class='thumb-info'>
+						<h3>{{ project.title}}</h3>
+						<p>{{ project.desc }}</p>
+						</div>
+					</div>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>

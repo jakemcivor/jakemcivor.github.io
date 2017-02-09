@@ -1,0 +1,61 @@
+---
+layout: default
+section_id: portfolio
+works:
+  - image: images/gear_demo.png
+    class: mechanical-design
+    title: Overhead Projector Gear Demo
+    desc: "Design &amp; Development"
+  - image: images/hatching_health/stroll_sight.jpg
+    class: mechanical-design electronics
+    title: Hatching Health - Stroll Sight
+    desc: "Design &amp; Development"
+
+---
+
+<div class='full' style='background: #333'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='color: #fff;'>My Projects</h2>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+<div class='two spacing'></div>
+<div class='spacing'></div>
+<div class='mod modMasonryGallery'>
+  <div class='gallery-nav'>
+    <ul>
+      <li class='current'>
+        <a data-cat='all' href='#'>All</a>
+      </li>
+      <li>
+        <a data-cat='mechanical-design' href='#'>Mechanical Design</a>
+      </li>
+	  <li>
+        <a data-cat='electronics' href='#'>Electronics</a>
+      </li>
+      <li>
+        <a data-cat='art' href='#'>Art</a>
+      </li>
+      <li>
+        <a data-cat='development' href='#'>Development</a>
+      </li>
+    </ul>
+  </div>
+  <ul class='gallery'>
+    {% for work in page.works %}
+      <li class='{{work.class}}'>
+        <a href='portfolio-item.html'>
+          <img alt="" src="{{work.image}}" />
+          <div class='overlay'>
+            <div class='thumb-info'>
+              <h3>{{work.title}}</h3>
+              <p>{{work.desc}}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
