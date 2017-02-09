@@ -1,11 +1,5 @@
 ---
 layout: default
-permalink: /portfolio-item/
-section_id: portfolio
-images:
-  - images/hatching_health/1614024_1357433957615343_1341000318942156884_o.jpg
-  - images/hatching_health/20160313_081739.jpg
-  - images/hatching_health/stroll_sight.jpg
 ---
 
 <div class='full' style='background: #333'>
@@ -24,7 +18,7 @@ images:
         <div class='slides'>
           {% for image in page.images %}
             <div class='slide'>
-              <img alt="" src="{{ site.url }}/{{image}}" />
+              <img alt="" src="{{ site.url }}/{{ page.image_path }}/{{ image }}" />
             </div>
           {% endfor %}
         </div>
@@ -34,23 +28,23 @@ images:
   <div class='spacing'></div>
   <div class='row'>
     <div class='large-8 columns'>
-      <h3>Hatching Health</h3>
+      <h3>{{ page.title }}</h3>
       <p>
-        Over the weekend...
+        {{ page.content }}
 		
       </p>
       <div class='spacing'></div>
-      <a class='button small' href='http://www.hatchinghealth.ca/'>Visit website</a>
+      <a class='button small' href="{{ page.projecturl }}">Visit website</a>
     </div>
     <div class='large-4 columns'>
       <ul class='info'>
         <li>
           <strong>Client:</strong>
-          n/a
+          {{ page.client }}
         </li>
         <li>
           <strong>Date:</strong>
-          March 2016
+          {{ page.date }}
         </li>
         <li>
           <div class='spacing'></div>

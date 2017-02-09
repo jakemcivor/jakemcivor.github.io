@@ -1,16 +1,7 @@
 ---
 layout: default
 permalink: /projects/
-section_id: portfolio
-works:
-  - image: images/gear_demo.png
-    class: mechanical-design
-    title: Overhead Projector Gear Demo
-    desc: "Design &amp; Development"
-  - image: images/hatching_health/stroll_sight.jpg
-    class: mechanical-design electronics
-    title: Hatching Health - Stroll Sight
-    desc: "Design &amp; Development"
+section_id: projects
 
 ---
 
@@ -23,24 +14,34 @@ works:
   <div class='two spacing'></div>
 </div>
 <div class='two spacing'></div>
-<div class='spacing'></div>
-
 
 <div class='full'>
-	<div class = 'row'>
-		<div class = 'large-12 columns'>
-			<ul class='gallery'>
+	<div class='row'>
+		<div class='large-12 columns'>
 			{% for project in site.projects %}
+				<div class="project">
+					<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+<div class='full'>
+	<div class='row'>
+		<div class='large-12 columns'>
+			<ul class='gallery'>
+			  {% for project in site.projects %}
 				<li class='{{ project.class }}'>
 					<img alt="" src="{{  site.url }}/{{ project.image_path }}" />
 					<div class = 'overlay'>
 						<div class='thumb-info'>
-						<h3>{{ project.desc}}</h3>
+						<h3>{{ project.title }}</h3>
 						<p>{{ project.content }}</p>
 						</div>
 					</div>
 				</li>
-			{% endfor %}
+			  {% endfor %}
 			</ul>
 		</div>
 	</div>
