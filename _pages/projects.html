@@ -14,6 +14,22 @@ section_id: projects
 </div>
 <div class='two spacing'></div>
 <div class='mod modMasonryGallery'>
+  
+  <ul class='gallery'>
+    {% for project in site.projects %}
+      <li class='{{project.class}}'>
+        <a href="{{ project.url }}">
+          <img alt="project.title" src="{{ site.url }}/{{ project.image_path }}/{{ project.main_image }}" />
+          <div class='overlay'>
+            <div class='thumb-info'>
+              <h3>{{project.title}}</h3>
+              <p>{{project.desc}}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
   <div class='gallery-nav'>
     <ul>
       <li class='current'>
@@ -49,19 +65,4 @@ section_id: projects
 
     </ul>
   </div>
-  <ul class='gallery'>
-    {% for project in site.projects %}
-      <li class='{{project.class}}'>
-        <a href="{{ project.url }}">
-          <img alt="project.title" src="{{ site.url }}/{{ project.image_path }}/{{ project.main_image }}" />
-          <div class='overlay'>
-            <div class='thumb-info'>
-              <h3>{{project.title}}</h3>
-              <p>{{project.desc}}</p>
-            </div>
-          </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
 </div>
