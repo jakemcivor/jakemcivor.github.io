@@ -13,8 +13,8 @@ images:
  - 1614024_1357433957615343_1341000318942156884_o.jpg
 ---
 
-Worked with a multi-disciplinary team to develop a product aimed at making it easier for bind parents to navigate with a stroller. 
+I had the opportunity to work with a multi-disciplinary team to develop a product aimed at solving an issue in healthcare. Our team pursued a system that would make it easier for a blind parent to navigate with a stroller. 
 
-Our system used ultrasonic range detection sensors to detect obstacles and drop-offs and vibratory motors to provide feedback to the user.
+Over the course of a weekend, our team developed a prototype system that used ultrasonic range detection sensors to detect obstacles and drop-offs and vibratory motors to provide feedback to the user.
 
 We won the Doctors of BC collaboration award.
