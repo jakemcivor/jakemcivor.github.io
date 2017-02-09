@@ -1,8 +1,8 @@
 # Site settings
 title: Jake McIvor
 email: jake@jake.mcivor.com
-description: > 
-  Biomedical / Mechanical Engineer. Lifelong learner. Maker.
+description: > # 
+  Biomedical and Mechanical Engineer. Lifelong learner. Maker.
 baseurl: "" 
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jakemcivor
@@ -23,7 +23,7 @@ copyrightyear: "2017"
 markdown: kramdown
 
 # Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 
 paginate: 4
 paginate_path: "blog/page:num"
