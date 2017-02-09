@@ -39,6 +39,9 @@ section_id: projects
         <a data-cat='design' href='#'>Design</a>
       </li>
 	  <li>
+        <a data-cat='design' href='#'>CAD</a>
+      </li>
+	  <li>
         <a data-cat='ip' href='#'>Intellectual Property</a>
       </li>
 	  <li>
@@ -50,7 +53,7 @@ section_id: projects
   <ul class='gallery'>
     {% for project in site.projects %}
       <li class='{{project.class}}'>
-        <a href="{{ project.url }}/portfolio-item/">
+        <a href="{{ project.url }}">
           <img alt="project.title" src="{{ site.url }}/{{ project.image_path }}/{{ project.main_image }}" />
           <div class='overlay'>
             <div class='thumb-info'>

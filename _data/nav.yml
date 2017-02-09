@@ -1,6 +1,9 @@
 - name: Home
   path: /
   section_id: home
+- name: Projects
+  path: /projects/ 
+  section_id: projects
 - name: About
   path: /about/
   children: 
@@ -9,9 +12,6 @@
   - name: Resume
     path: /resume/
   section_id: about
-- name: Projects
-  path: /projects/ 
-  section_id: projects
 - name: Contact
   path: /contact/
   section_id: contact
