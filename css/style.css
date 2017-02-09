@@ -604,6 +604,10 @@ form input.error, form textarea.error {
 #footer.fullwidth ul.socials li {
   margin-right: 10px;
 }
+#footer.fullwidth p.attribution {
+  padding-left: 30px;
+  float: left;
+}
 
 body.screenshot {
   display: block;
