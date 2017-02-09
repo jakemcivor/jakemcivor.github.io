@@ -2,6 +2,32 @@
 layout: default
 permalink: /about/
 section_id: about
+skills:
+ - title: Mechanical Design
+   experience: 5
+ - title: Intellectual Property
+   experience: 2
+ - title: Computer Programming
+   experience: 20
+software:
+ - title: Python
+   experience: 1
+ - title: SolidWorks
+   experience: 15
+ - title: Autodesk Fusion 360
+   experience: 1
+ - title: Matlab
+   experience: 14
+ - title: R
+   experience: 3
+tools:
+ - title: 3D Printer
+   experience: 1
+ - title: Laser Cutter
+   experience: 1
+ - title: Soldering
+   experience: 25
+   
 ---
 
 <div class='full' style='background: #333'>
@@ -15,19 +41,43 @@ section_id: about
 
 <div class='full'>
   <div class='row'>
-  <div class = 'medium-6 columns'>
-	<image alt="" src="{{site.url}}/images/jake.jpg" width="300"/>
-  </div>
+    <div class = 'medium-6 columns'>
+	  <image alt="" src="{{site.url}}/images/jake.jpg" width="300"/>
+    </div>
     <div class='medium-6 columns'>
       <div class='spacing'></div>
-      <p>I am a multi-talented mechanical / biomedical engineer.</p>
-	  <div class='two spacing'></div>
-	  <h2> <a href="{{ site.url }}/biography/"> Biography </a> </h2>
-	  <div class='two spacing'></div>
-	  <h2> <a href= "{{ site.url }}/resume/"> Resume </a> </h2>
+      <p>I am a mechanical / biomedical engineer and lifelong learner with a diverse range of interests, skills, and experiences. </p>
+	  <p>I was fortunate enough to grow up in Kimberley, B.C. right beside the Rocky Mountains in the East Kootenay region of British Columbia, Canada. I currently live in Vancouver, British Columbia, Canada. </p>
+	  <p>My personal <a hred="http://www.strengthsfinder.com">strengths</a> are themed around restoration, learning, analysing, deliberating, and intellection. This means I thrive at solving complex problems and figuring out ways to work smarter. </p>
+	  <p> My work and volunteer experience is available on <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>. You can see more details on professional and personal <a href="{{ site.url }}\projects\">projects</a> here on this site, and through other online accounts (<a href="twitter.com/{{ site.twitter_username }}">Twitter</a>, <a href="instagram.com/{{ site.instram_username }}">Instagram</a>, and <a href="github.com/{{ site.github_username }}">GitHub</a>.) </p>
+	  </div>
+  </div>	
+  <div class='two spacing'></div>
+  <div class='row'>
+	<div class='large-12 columns'>
+      <div class='spacing'></div>
+      <h3>Education </h3>
+	  <p> B.Sc. Mechanical Engineering, University of Alberta </p>
+	  <p> M.A.Sc. Biomedical Engineering, University of British Columbia </p>
       <div class='two spacing'></div>
-    </div>
-    
-  </div>
+      <h3>Skills </h3>
+		{% for skill in page.skills %}
+			<p>{{ skill.title }} </p>  
+		{% endfor %}
+	  <div class='two spacing'></div>
+      
+	  <h3>Software </h3>
+		{% for program in page.software %}
+			<p>{{ program.title }}</p>
+		{% endfor %}
+	  <div class='two spacing'></div>
+	  
+	  <h3>Tools </h3>
+		{% for tool in page.tools %}
+			<p>{{ tool.title }}</p>
+	    {% endfor %}
+	  <div class='two spacing'></div>
+   </div>
+   </div> 
 </div>
 <div class='two spacing'></div>

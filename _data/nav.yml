@@ -6,11 +6,6 @@
   section_id: projects
 - name: About
   path: /about/
-  children: 
-  - name: Biography
-    path: /biography/
-  - name: Resume
-    path: /resume/
   section_id: about
 - name: Contact
   path: /contact/
