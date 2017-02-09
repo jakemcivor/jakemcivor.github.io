@@ -13,6 +13,7 @@ youtube_username: jakemcivor
 linkedin_username: jakemcivor
 instagram_username: jakemcivor
 
+#Include pages
 include: ["_pages"]
 
 # Copyright
