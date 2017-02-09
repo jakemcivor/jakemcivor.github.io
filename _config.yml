@@ -11,7 +11,7 @@ facebook_username: jake.mcivor.1
 twitter_username: jakemcivor
 
 # Copyright
-copyrightyear: 2017
+copyrightyear: "2017"
 
 # Build settings
 markdown: kramdown
