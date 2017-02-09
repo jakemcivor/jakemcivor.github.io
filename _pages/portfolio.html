@@ -48,7 +48,7 @@ works:
     {% for work in page.works %}
       <li class='{{work.class}}'>
         <a href='portfolio-item.html'>
-          <img alt="" src="{{ site.baseurl }}{{work.image}}" />
+          <img alt="" src="{{ site.url }}/{{work.image}}" />
           <div class='overlay'>
             <div class='thumb-info'>
               <h3>{{work.title}}</h3>
