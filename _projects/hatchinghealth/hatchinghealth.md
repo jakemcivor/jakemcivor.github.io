@@ -5,7 +5,7 @@ image_path: projects/hatchinghealth
 class: mechanical electronics biomedical design ideation
 date: March 2015
 client: na
-projecturl: www.hatchinghealth.ca
+project_url: http://www.hatchinghealth.ca
 main_image: stroll_sight.jpg
 images:
  - stroll_sight.jpg

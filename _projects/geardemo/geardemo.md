@@ -2,7 +2,7 @@
 layout: project
 title: Overhead Projector Gear Demo
 image_path: projects/geardemo/
-class: mechanical design CAD
+class: mechanical design CAD detail
 date: July 2005
 client: na
 main_image: gear_demo.png
