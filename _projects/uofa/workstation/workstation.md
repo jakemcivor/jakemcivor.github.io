@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Technician Cart
+title: Technician Workstation
 image_path: projects/uofa/workstation
 class: mechanical design CAD detail
 year: 2005
