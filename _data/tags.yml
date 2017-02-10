@@ -1,0 +1,27 @@
+- tag: mechanical
+  path: 
+  text: Mechanical
+- tag: software
+  path:
+  text: Software
+- tag: cad
+  path:
+  text: CAD
+- tag: electronics
+  path: 
+  text: Electronics
+- tag: biomedical
+  path: 
+  text: Biomedical
+- tag: ideation
+  path: 
+  text: Ideation
+- tag: design
+  path:
+  text: Design
+- tag: ip
+  path: 
+  text: Intellectual Property
+- tag: art
+  path:
+  text: Art

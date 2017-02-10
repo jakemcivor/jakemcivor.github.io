@@ -2,7 +2,6 @@
 layout: default
 permalink: /projects/
 section_id: projects
-
 ---
 <div class='full' style='background: #333'>
   <div class='row'>
@@ -19,33 +18,11 @@ section_id: projects
       <li class='current'>
         <a data-cat='all' href='#'>All</a>
       </li>
-      <li>
-        <a data-cat='mechanical' href='#'>Mechanical</a>
-      </li>
-	  <li>
-        <a data-cat='electronics' href='#'>Electronics</a>
-      </li>
-      <li>
-        <a data-cat='biomedical' href='#'>Biomedical</a>
-      </li>
-	  <li>
-        <a data-cat='software' href='#'>Software</a>
-      </li>
-	  <li>
-        <a data-cat='ideation' href='#'>Ideation</a>
-      </li>
-	  <li>
-        <a data-cat='design' href='#'>Design</a>
-      </li>
-	  <li>
-        <a data-cat='design' href='#'>CAD</a>
-      </li>
-	  <li>
-        <a data-cat='ip' href='#'>Intellectual Property</a>
-      </li>
-	  <li>
-        <a data-cat='art' href='#'>Art</a>
-      </li>
+	  {% for tag in site.data.tags %}
+		<li>
+			<a data-cat='{{ tag.tag }}' href='#'>{{ tag.text }}</a>	
+		<li>
+	  {% endfor %}	 
     </ul>
   </div>
   <ul class='gallery'>
