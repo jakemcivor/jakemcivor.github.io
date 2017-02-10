@@ -1,13 +1,12 @@
 ---
 layout: project
 title: Technician Cart
-image_path: projects/uofa/cart
+image_path: projects/uofa/workstation
 class: mechanical design CAD detail
 year: 2005
-client: n/a
-main_image: technician_cart.png
+main_image: technician_workstation.png
 images:
- - technician_cart.png
+ - technician_workstation.png
 tasks:
  - Discussed design requirements with technician
  - Design and detailing using Pro/E

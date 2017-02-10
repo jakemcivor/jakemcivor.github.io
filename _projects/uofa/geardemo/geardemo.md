@@ -4,7 +4,6 @@ title: Overhead Projector Gear Demo
 image_path: projects/uofa/geardemo/
 class: mechanical design CAD detail
 year: 2005
-client: na
 main_image: gear_demo.png
 images:
  - gear_demo.png
