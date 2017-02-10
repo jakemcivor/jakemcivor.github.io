@@ -28,9 +28,19 @@ section_id: projects
   </div>
   <div class='row'>
     <div class='large-8 columns'>
-      <p>
-        {{ page.content }}	
-      </p>
+      <h3> Description </h3>
+	  <p> {{ page.content }}   </p>
+	  
+	  {% if page.tasks %}
+		<div class='tasks'>
+		<h3> My Tasks </h3>
+			<ul>
+			{% for task in page.tasks %}
+				<li> {{ task }} </li>
+			{% endfor %}
+			</ul>
+		</div>
+	  {% endif %}
       {% if page.project_url %}
 	  <a class='button small' href="{{ page.project_url }}">Visit website</a>
 	  {% endif %}
