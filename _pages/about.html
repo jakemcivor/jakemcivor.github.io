@@ -9,17 +9,28 @@ skills:
    experience: 2
  - title: Computer Programming
    experience: 20
-software:
- - title: Python
-   experience: 1
- - title: SolidWorks
+ - title: Public Speaking
    experience: 15
- - title: Autodesk Fusion 360
-   experience: 1
+software:
  - title: Matlab
    experience: 14
+ - title: LabVIEW
+   experience: 10
  - title: R
    experience: 3
+ - title: Python
+   experience: 1
+ - title: C++
+   experience: 3  
+cad:
+ - title: SolidWorks
+   experience: 15
+ - title: Pro/Engineer
+   experience: 5
+ - title: AutoCAD
+   experience: 2 
+ - title: Autodesk Fusion 360
+   experience: 1   
 tools:
  - title: 3D Printer
    experience: 1
@@ -27,7 +38,13 @@ tools:
    experience: 1
  - title: Soldering
    experience: 25
-   
+courses:
+ - title: Learning How to Learning
+   institution: Coursera
+   url: https://www.coursera.org/learn/learning-how-to-learn
+ - title: Design Kit - Course for Human-Centered Design
+   insitution: IDEO and +Acumen
+   url: http://plusacumen.org/courses/hcd-for-social-innovation/
 ---
 
 <div class='full' style='background: #333'>
@@ -54,30 +71,41 @@ tools:
   </div>	
   <div class='two spacing'></div>
   <div class='row'>
-	<div class='large-12 columns'>
-      <div class='spacing'></div>
+	<div class='small-2 large-4 columns'>
       <h3>Education </h3>
 	  <p> B.Sc. Mechanical Engineering, University of Alberta </p>
 	  <p> M.A.Sc. Biomedical Engineering, University of British Columbia </p>
-      <div class='two spacing'></div>
-      <h3>Skills </h3>
+    </div>
+	<div class='small-2 large-4 columns'>  
+	  <h3>Courses </h3>
+		{% for course in page.courses %}
+			<p><a href="{{course.url}}">{{ course.title }}</a></p>
+	    {% endfor %}
+	</div>
+    <div class='small-2 large-4 columns'>  
+	  <h3>Skills </h3>
 		{% for skill in page.skills %}
 			<p>{{ skill.title }} </p>  
 		{% endfor %}
-	  <div class='two spacing'></div>
-      
+	</div>
+    <div class='small-2 large-4 columns'>  
 	  <h3>Software </h3>
 		{% for program in page.software %}
 			<p>{{ program.title }}</p>
 		{% endfor %}
-	  <div class='two spacing'></div>
-	  
+	</div>
+	<div class='small-2 large-4 columns'>  
+	  <h3>CAD</h3>
+		{% for program in page.cad %}
+			<p>{{ program.title }}</p>
+		{% endfor %}
+	</div>
+	<div class='small-2 large-4 columns'>  
 	  <h3>Tools </h3>
 		{% for tool in page.tools %}
 			<p>{{ tool.title }}</p>
 	    {% endfor %}
-	  <div class='two spacing'></div>
-   </div>
+	</div>
+   
    </div> 
 </div>
-<div class='two spacing'></div>
