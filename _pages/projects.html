@@ -29,11 +29,15 @@ section_id: projects
     {% for project in site.projects %}
       <li class='{{project.class}}'>
         <a href="{{ project.url }}">
-          <img alt="project.title" src="{{ site.url }}/{{ project.image_path }}/{{ project.main_image }}" />
+          {% if project.main_image %}
+			<img alt="project.title" src="{{ site.url }}/{{ project.image_path }}/{{ 	project.main_image }}" />
+		  {% else %}
+			<img alt="project.title" src="{{ site.url }}/images/project.jpg" />
+		  {% endif %}
           <div class='overlay'>
             <div class='thumb-info'>
-              <h3>{{project.title}}</h3>
-              <p>{{project.desc}}</p>
+              <h3>{{ project.title }}</h3>
+              <p>{{ project.desc }}</p>
             </div>
           </div>
         </a>
