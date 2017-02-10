@@ -15,6 +15,6 @@ tasks:
  - Machinist support
 ---
 
-This purpose of this project was to determine a method for manufacturing throat models used for research at the <a href="http://www.mece.ualberta.ca/arla/index.html">Aerosol Research Lab of Alberta</a> at the Universiy of Alberta. The model features an overhanging section of epiglottis that would be challenging to machine.
+This purpose of this project was to determine a method for manufacturing the Alberta Idealized Throat model developed by and used for research at the <a href="http://www.mece.ualberta.ca/arla/index.html">Aerosol Research Lab of Alberta</a> at the Universiy of Alberta. 
 
-I worked closely with the shop machinists to design the tooling and methods to machine the complex geometry using an electrical discharge machine.
+The model features an overhanging section of epiglottis that is challenging to machine using standard methods. I worked closely with the shop machinists to design the tooling and methods to machine the complex geometry using an electrical discharge machine with CNC machined electrodes.

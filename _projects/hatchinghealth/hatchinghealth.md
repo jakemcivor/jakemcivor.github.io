@@ -4,7 +4,6 @@ title: Hatching Health
 image_path: projects/hatchinghealth
 class: mechanical electronics biomedical design ideation CAD
 year: 2015
-client: n/a
 project_url: http://www.hatchinghealth.ca
 main_image: stroll_sight.jpg
 images:

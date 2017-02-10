@@ -4,7 +4,6 @@ title: Orthodontic Tester
 image_path: projects/uofa/orthotester
 class: software
 year: 2005
-client: na
 main_image: orthotester.gif
 images:
  - orthotester.gif

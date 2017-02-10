@@ -4,7 +4,6 @@ title: BB8 Snow Sculpture
 image_path: projects/snowart/bb8
 class: art snowart sculpture
 year: 2015
-client: n/a
 main_image: 20160103_101016.jpg
 images:
  - 20151230_160432.jpg
