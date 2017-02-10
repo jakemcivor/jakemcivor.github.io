@@ -5,13 +5,18 @@ image_path: projects/bb8
 class: art snowart sculpture
 date: Dec 2015
 client: na
-main_image: 535054_10153832613138967_1640217164670379800_n.jpg
+main_image: 20160103_101016.jpg
 images:
- - 20151225_235758.jpg
  - 20151230_160432.jpg
  - 20151230_172253.jpg
  - 12440481_10153832612743967_9027130058510707000_o.jpg
- - 535054_10153832613138967_1640217164670379800_n.jpg
+ - 20160103_101016.jpg
 ---
 
-A massive pile of snow was allowed to harden up, then carved into the form of the BB8 droid from Star Wars.
+To make this snow sculpture, I used a snowblower to help form a large pile of snow. After letting it harded up for a few days, the shape was roughed out using shovels and other garden tools.
+
+After considering a variety of ideas, BB8 from the recently released Star Wars movie was selected since the relatively straightforward shape fit well with my timeline.
+
+Achieving the right shape and proportions was challenging at this scale, so I paused frequently to step back and reassess the shape.
+
+A simple string compass was used to help mark the final details of the round elements. The final touch was to add some color and details using spraypaint.
