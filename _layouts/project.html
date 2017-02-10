@@ -47,10 +47,12 @@ section_id: projects
     </div>
     <div class='large-4 columns'>
       <ul class='info'>
-        <li>
+        {% if page.client %}
+		<li>
           <strong>Client:</strong>
           {{ page.client }}
         </li>
+		{% endif %}
         <li>
           <strong>Date:</strong>
           {{ page.year }}
