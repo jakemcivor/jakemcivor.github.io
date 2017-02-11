@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Thesis - Human Bracing and Surgical Drilling
-image_path: projects/ubc/orthotester
+image_path: projects/ubc/masc
 class: software
 year: 2007-2013
 main_image:
