@@ -4,12 +4,20 @@
 		  <a class="prev" href="{{ page.previous.url }}" title='previous'>
             <i class='icon-left-open'></i>
           </a>
+		  {% else %}
+		    <a class="next" href="{{ site.projects.last.url }}" title='previous'>
+            <i class='icon-left-open'> </i>
+          </a>
 		  {% endif %}
-          <a href="{{ site.url }}/projects/" title='back to work list'>
+          <a href="{{ site.url }}/projects/" title='back to project list'>
             <i class='icon-layout'></i>
           </a>
           {% if page.next.url %}
 		  <a class="next" href="{{ page.next.url }}" title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+		  {% else %}
+		  <a class="next" href="{{ site.projects.first.url }}" title='next'>
             <i class='icon-right-open'></i>
           </a>
 		  {% endif %}
