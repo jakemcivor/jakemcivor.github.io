@@ -6,13 +6,13 @@ class: software
 year: 2007-2013
 main_image: drill_plunge.jpg
 images:
- - drill_plunge.jpg
- - flexure.jpg
- - rapid_prototyping.jpg
- - workpieceholder.png
- - workpiece.jpg
- - targetsetup.jpg
- - targeting.jpg
+ - 1-drill_plunge.jpg
+ - 2-plungeschematic.jpg
+ - 3-flexure.jpg
+ - 4-rapid_prototyping.jpg
+ - 5-targetsetup.jpg
+ - 6-workpiece.jpg
+ - 7-targeting.jpg
   
 tasks:
  - Brainstormed and tested various methods to apply bracing to arm
