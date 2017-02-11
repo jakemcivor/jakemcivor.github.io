@@ -4,7 +4,7 @@ title: Thesis - Human Bracing and Surgical Drilling
 image_path: projects/ubc/masc
 class: software
 year: 2007-2013
-main_image: drill_plunge.jpg
+main_image: 1-drill_plunge.jpg
 images:
  - 1-drill_plunge.jpg
  - 2-plungeschematic.jpg
