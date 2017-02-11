@@ -9,7 +9,9 @@ main_image: fluid_research.png
 images:
  - fluid_research.png
 tasks:
- - Create part and assembly drawing using Pro/E
+ - Created part and assembly drawing using Pro/E
+ - Sourced materials
+ - Supported machinist during manufacturing
 ---
 
 Assisted a University of Alberta researcher to create drawing package for a fluid entrainment research apparatus.

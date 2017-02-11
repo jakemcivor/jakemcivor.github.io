@@ -10,6 +10,7 @@ images:
 tasks:
  - Design and detailing in Pro/E
  - Sourcing and ordering parts
+ - Creation of full drawing package for manufacture
  - Overseeing machining
  - Assembly
 ---
