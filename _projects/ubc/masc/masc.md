@@ -4,14 +4,25 @@ title: Thesis - Human Bracing and Surgical Drilling
 image_path: projects/ubc/masc
 class: software
 year: 2007-2013
-main_image:
+main_image: drill_plunge.jpg
 images:
+ - drill_plunge.jpg
+ - flexure.jpg
+ - rapid_prototyping.jpg
+ - workpieceholder.png
+ - workpiece.jpg
+ - targetsetup.jpg
+ - targeting.jpg
+  
 tasks:
+ - Brainstormed and tested various methods to apply bracing to arm
+ - Developed numerical model to simulate human arm motion using Matlab
  - Used Solidworks to develop research apparatus
  - Wrote ethics application and received clearance for human behaviour study
- - 
+ - Developed real-time visual feedback and data acquistion system using LabVIEW
+ - Developed method to quantify drill plunge during simulated surgical drilling
+ - Applied linear mixed model statistics using R
  - Drafted thesis using LaTeX
- 
 ---
 
 My master's work at UBC involved investigating how human bracing may be used to improve surgical tasks like surgical drilling.
