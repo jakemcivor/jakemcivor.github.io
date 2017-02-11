@@ -7,9 +7,9 @@ year: 2015
 project_url: http://www.hatchinghealth.ca
 main_image: stroll_sight.jpg
 images:
+ - prototyping.jpg
+ - toothbrush.jpg
  - stroll_sight.jpg
- - 20160313_081739.jpg
- - 1614024_1357433957615343_1341000318942156884_o.jpg
 tasks: 
  - Leading ideation and brainstorming
  - Resourceful acquistion of motors for vibratory feedback
