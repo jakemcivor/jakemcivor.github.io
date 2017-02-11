@@ -2,7 +2,7 @@
 layout: project
 title: Phoenix Rover Research Apparatus
 image_path: projects/uofa/phoenix
-class: mechanical design CAD detail ideation
+class: mechanical design cad detail ideation
 year: 2005
 main_image: mars_phoenix_model.png
 images:

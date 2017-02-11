@@ -2,7 +2,7 @@
 layout: project
 title: Technician Workstation
 image_path: projects/uofa/workstation
-class: mechanical design CAD detail
+class: mechanical design cad detail
 year: 2005
 main_image: technician_workstation.png
 images:

@@ -2,7 +2,7 @@
 layout: project
 title: Throat Model
 image_path: projects/uofa/throat
-class: mechanical design CAD detail biomedical
+class: mechanical design cad detail biomedical
 year: 2005
 main_image: throat.png
 images:

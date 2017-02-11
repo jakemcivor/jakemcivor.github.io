@@ -2,7 +2,7 @@
 layout: project
 title: MEC E 364 Part
 image_path: projects/uofa/mece364
-class: mechanical CAD detail
+class: mechanical cad detail
 year: 2005
 main_image: mece364_model.png
 images:

@@ -2,7 +2,7 @@
 layout: project
 title: Fluid Entrainment Research Apparatus
 image_path: projects/uofa/fluid
-class: mechanical CAD detail freelance
+class: mechanical cad detail freelance
 year: 2005
 client: Fluid Research Group
 main_image: fluid_research.png

@@ -2,7 +2,7 @@
 layout: project
 title: Access Makeathon
 image_path: projects/accessmakeathon
-class: mechanical design CAD detail software ideation
+class: mechanical design cad detail software ideation
 year: 2017
 main_image: teamjarrod.jpg
 images:

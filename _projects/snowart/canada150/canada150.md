@@ -4,7 +4,7 @@ title: Canada 150 Snow Art
 image_path: projects/snowart/canada150
 class: art snowart sculpture ideation
 year: 2017
-main_image: final.JPG
+main_image: final.jpg
 images:
 - carving.jpg
 - flames.jpg
