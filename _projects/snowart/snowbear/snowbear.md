@@ -11,3 +11,4 @@ images:
 - snowbear.jpg
 ---
 
+Snow bear snow sculpture inspired by a well known polar bear.
