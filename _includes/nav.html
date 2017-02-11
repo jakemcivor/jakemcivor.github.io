@@ -1,12 +1,16 @@
 <div class="nav-primary" role="navigation"> 
 	
+		  {% if page.previous.url %}
 		  <a class="prev" href="{{ page.previous.url }}" title='previous'>
             <i class='icon-left-open'></i>
           </a>
+		  {% endif %}
           <a href="{{ site.url }}/projects/" title='back to work list'>
             <i class='icon-layout'></i>
           </a>
-          <a class="next" href="{{ page.next.url }}" title='next'>
+          {% if page.next.url %}
+		  <a class="next" href="{{ page.next.url }}" title='next'>
             <i class='icon-right-open'></i>
           </a>
+		  {% endif %}
 </div>

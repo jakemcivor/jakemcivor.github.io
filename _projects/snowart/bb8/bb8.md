@@ -12,9 +12,9 @@ images:
  - 20160103_101016.jpg
 ---
 
-To make this snow sculpture, I used a snowblower to help form a large pile of snow. After letting it harded up for a few days, the shape was roughed out using shovels and other garden tools.
+To make this snow sculpture, I used a snowblower to help form a large pile of snow. After letting it harden up for a few days, the shape was roughed out using shovels and other garden tools.
 
-After considering a variety of ideas, BB8 from the recently released Star Wars movie was selected since the relatively straightforward shape fit well with my timeline.
+After considering a variety of ideas, the BB8 droid, from the recently released Star Wars movie, was selected since the relatively straightforward shape fit well with my timeline.
 
 Achieving the right shape and proportions was challenging at this scale, so I paused frequently to step back and reassess the shape.
 
