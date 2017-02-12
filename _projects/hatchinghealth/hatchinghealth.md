@@ -8,6 +8,7 @@ project_url: http://www.hatchinghealth.ca
 main_image: stroll_sight.jpg
 images:
  - prototyping.jpg
+ - sensor_prototype.jpg
  - toothbrush.jpg
  - stroll_sight.jpg
 tasks: 
