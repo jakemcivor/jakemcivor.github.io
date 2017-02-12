@@ -11,6 +11,7 @@ images:
  - sensor_prototype.jpg
  - toothbrush.jpg
  - stroll_sight.jpg
+ - hatchinghealth_collaboration.jpg
 tasks: 
  - Leading ideation and brainstorming
  - Resourceful acquistion of motors for vibratory feedback
