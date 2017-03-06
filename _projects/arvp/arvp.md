@@ -24,7 +24,7 @@ tasks:
 - Led transition from ground vehicles to underwater vehicles.
 ---
 
-I have always had an interest in robotics, so as an undergraduate student at the University of Alberta, I joined the <a href="https://arvp.org/">Autonomous Robotic Vehicle Project</a>. The purpose of the ARVP is to develp, apply, and promote technologies related to the field of robotics. When I first joined, the primary goal was to design and construct an autonomous ground vehicles to compete in the International Ground Vehicle Competition (<a href="https://igvc.org/">IGVC</a>).
+I have always had an interest in robotics, so as an undergraduate student at the University of Alberta, I joined the <a href="https://arvp.org/">Autonomous Robotic Vehicle Project</a>. The purpose of the ARVP is to develp, apply, and promote technologies related to the field of robotics. When I first joined, the primary goal was to design and construct an autonomous ground vehicles to compete in the International Ground Vehicle Competition (<a href="https://www.igvc.org/">IGVC</a>).
 
 I took on a few different roles, from being part of the mechanical team, to leading the mechanical team, and eventually leading the project during my final year at U of A.
 
