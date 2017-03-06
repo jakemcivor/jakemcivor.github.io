@@ -6,19 +6,20 @@ class: mechanical design CAD detail software ideation teach volunteer
 year: 2003-2007
 main_image: ursamajor.jpg
 images:
+ - ursamajor.jpg
  - ursamajorschematic.jpg
  - ursamajorshellproto.jpg
  - ursamajorshellwaterjet.jpg
  - ursamajorshell.jpg
 tasks:
- - Contributed to detailed design, drawing package, and construction of Ursa Major, a four-wheeled autonomous robotic vehicle.
- - Oversaw the necessary modifications of Ursa Major to produce Ursa Minor, a three-wheeled autonomous robotic vehicle.
-- Utilized Pro/Engineer for solid modelling, detailing and creating drawing package for new robot.
-- Designed and constructed aesthetic shell using rapid prototyping techniques and waterjet cutter.
+- Contributed to detailed design, drawing package, and construction of Ursa Major, a four-wheeled autonomous robotic vehicle
+- Oversaw the necessary modifications of Ursa Major to produce Ursa Minor, a three-wheeled autonomous robotic vehicle
+- Utilized Pro/Engineer for solid modelling, detailing and creating drawing package for new robot
+- Designed and constructed aesthetic shell using rapid prototyping techniques and waterjet cutter
 - Troubleshot mechanical and electrical problems associated with motors and motor controllers
-- Managed interdisciplinary team of student volunteers.
-- Organized and ran weekly meetings.
-- Prepared budgets, proposals, and technical documentation.
+- Managed interdisciplinary team of student volunteers
+- Organized and ran weekly meetings
+- Prepared budgets, proposals, and technical documentation
 - Interacted with public during outreach events
 - Led transition from ground vehicles to underwater vehicles.
 ---
