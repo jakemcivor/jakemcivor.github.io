@@ -2,7 +2,7 @@
 layout: project
 title: Mechanical Iris
 image_path: projects/vhs/iris
-class: mechanical cad detail
+class: mechanical cad detail design 3dprint
 year: 2017
 main_image: iris_close.jpg
 images:
