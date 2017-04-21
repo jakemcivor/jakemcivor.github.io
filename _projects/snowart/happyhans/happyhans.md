@@ -6,9 +6,9 @@ class: art snowart sculpture ideation
 year: 
 main_image: hans_final.jpg
 images:
-- hans_model.JPG
-- hans_rough.JPG
-- hans_jake.JPG
+- hans_model.jpg
+- hans_rough.jpg
+- hans_jake.jpg
 - hans_final.jpg
 ---
 
