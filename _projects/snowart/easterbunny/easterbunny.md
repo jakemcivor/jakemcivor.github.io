@@ -4,7 +4,7 @@ title: Easter Bunny
 image_path: projects/snowart/easterbunny
 class: art snowart sculpture ideation
 year: 2017
-main_image: - easterbunny_final.jpg
+main_image: easterbunny_final.jpg
 images:
 - easterbunny_rough.jpg
 - easterbunny_kangaroo.jpg
