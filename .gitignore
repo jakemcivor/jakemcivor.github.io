@@ -3,3 +3,4 @@ _site/
 .jekyll-metadata
 _project/*/.picasa.ini
 _project/*/*/.picasa.ini
+picasa.ini
