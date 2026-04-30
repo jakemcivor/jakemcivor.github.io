@@ -3,29 +3,23 @@ layout: default
 permalink: /
 section_id: home
 ---
-<div class='full' style='background: #333'>
-  <div class='row'>
-    <div class='large-12 columns'>
-		<h3 style='color: #fff;'>{{ site.description }}</h3> 
-    </div>
-  </div>
-  <div class='spacing'></div>
-</div>
+<section class="hero">
+  <h1>Jake McIvor</h1>
+  <h2>Mechanical Biomedical Engineer &middot; Maker &middot; Lifelong Learner</h2>
 
-<div class='mod modMasonryGallery'>
-  <ul class='gallery'>
-    {% for project in site.projects %}
-      <li class='{{project.class}}'>
-        <a href="{{ project.url }}">
-          <img alt="" src="{{site.url}}/{{project.image_path}}/{{project.main_image}}" />
-          <div class='overlay'>
-            <div class='thumb-info'>
-              <h3>{{project.title}}</h3>
-              <p>{{project.desc}}</p>
-            </div>
-          </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+  <p>
+    I grew up in the mountains of Kimberley, B.C., tinkering with things and asking how they work.
+    That curiosity took me through mechanical and biomedical engineering degrees, a research thesis
+    on surgical drilling, and eventually to work I'm genuinely proud of &mdash; helping design and
+    distribute open-source assistive technology through the
+    <a href="https://makersmakingchange.com" target="_blank" rel="noopener">Makers Making Change</a>
+    program at <a href="https://www.neilsquire.ca" target="_blank" rel="noopener">Neil Squire</a>.
+  </p>
+
+  <p>I'm always looking to collaborate with people who build things that matter.</p>
+
+  <nav class="hero-ctas">
+    <a href="/projects/" class="button">See my projects</a>
+    <a href="/contact/" class="button button-outline">Get in touch</a>
+  </nav>
+</section>
