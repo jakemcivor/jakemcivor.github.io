@@ -5,19 +5,13 @@ description: > #
   Mechanical Biomedical Engineer. Lifelong learner. Maker.
 baseurl: "" 
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jakemcivor
+
 github_username:  jakemcivor
-facebook_username: jake.mcivor.1
-twitter_username: jakemcivor
-youtube_username: jakemcivor
 linkedin_username: jakemcivor
 instagram_username: jakemcivor
 
 #Include pages
 include: ["_pages"]
-
-# Copyright
-copyrightyear: "2017"
 
 # Build settings
 markdown: kramdown
